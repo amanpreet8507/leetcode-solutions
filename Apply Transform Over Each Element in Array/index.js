@@ -35,7 +35,8 @@ var map = function (arr, fn) {
 };
 
 function plusI(n, i) {
-  return n + i;
+  //return n + i;
+  return n + 1;
 }
 
 let testArr = [1, 2, 3];
