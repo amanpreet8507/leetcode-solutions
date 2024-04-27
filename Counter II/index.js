@@ -42,9 +42,9 @@ var createCounter = function (init) {
       return ++currentValue;
     },
     reset: function () {
-      console.log('before reset', currentValue)
+      console.log("before reset", currentValue);
       currentValue = init;
-      console.log('after reset', currentValue)
+      console.log("after reset", currentValue);
       return currentValue;
     },
     decrement: function () {
