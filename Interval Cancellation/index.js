@@ -121,4 +121,4 @@ setTimeout(() => {
                          //     {"time":140,"returned":8},
                          //     {"time":175,"returned":8}
                          // ]
-}, cancelTimeMs + t + 15)    
+}, cancelTimeMs + t + 15)
