@@ -24,9 +24,6 @@ Explanation: arr is sorted in ascending order by number at index=1.
 
 var sortBy = function (arr, fn) {
   const sortedArr = arr.sort((a, b) => fn(a) - fn(b));
-  /**
-   * if a-b = - somenumber it puts the
-   */
   return sortedArr;
 };
 
